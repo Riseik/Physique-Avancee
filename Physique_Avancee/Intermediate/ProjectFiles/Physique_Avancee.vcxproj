@@ -260,6 +260,7 @@
     <None Include="..\..\Physique_Avancee.uproject"/>
     <None Include="..\..\Source\Physique_Avancee.Target.cs"/>
     <None Include="..\..\Source\Physique_AvanceeEditor.Target.cs"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
