@@ -1340,3 +1340,57 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.03.24-10.11.24:158][  1]LogStreaming: Display: FlushAsyncLoading(423): 64 QueuedPackages, 0 AsyncPackages
 [2025.03.24-10.11.57:158][819]LogSlate: Took 0.011490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2025.03.24-10.13.15:592][ 38]LogDerivedDataCache: C:/Users/emaillard/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.03.24-10.25.17:663][306]LogSlate: External Image Picker: DecompressImage failed
+[2025.03.24-10.25.17:826][307]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: ================================================
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Total job queries 182, among them cache hits 10 (5.49%), DDC hits 147 (80.77%), Duplicates 7 (3.85%)
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Tracking 165 distinct input hashes that result in 157 distinct outputs (95.15%)
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: RAM used: 124,17 KiB of 1,60 GiB budget. Usage: 0.01%
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Shaders Compiled: 18
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Jobs assigned 18, completed 18 (100%)
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Average time worker was idle: 0.74 s
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.13 s
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Job execution time: average 1.07 s, max 1.79 s
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Job life time (pending + execution): average 1.13 s, max 1.86
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Shader code size: average 7,648 KiB, min 3,949 KiB, max 12,691 KiB
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.59 s
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Jobs were issued in 18 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Average processing rate: 3.92 jobs/sec
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Total thread time: 12,98 s
+[2025.03.24-10.26.24:110][143]LogShaderCompilers: Display: Total thread preprocess time: 2,69 s
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display: Percentage time preprocessing: 20.73%
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display: Effective parallelization: 2.83 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.64 sec, max 1.64 sec, min 1.64 sec)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 0.98 sec, max 1.08 sec, min 0.88 sec)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.66 sec, max 0.83 sec, min 0.47 sec)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 0.64 sec, max 0.64 sec, min 0.64 sec)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.62 sec, max 0.62 sec, min 0.62 sec)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.18% of total time (compiled    3 times, average 0.66 sec, max 0.83 sec, min 0.47 sec)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 15.14% of total time (compiled    2 times, average 0.98 sec, max 1.08 sec, min 0.88 sec)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 12.61% of total time (compiled    1 times, average 1.64 sec, max 1.64 sec, min 1.64 sec)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.73% of total time (compiled    3 times, average 0.46 sec, max 0.61 sec, min 0.32 sec)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display:                                                 FLumenCardPS - 7.88% of total time (compiled    2 times, average 0.51 sec, max 0.54 sec, min 0.49 sec)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display: === Material stats ===
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display: Materials Translated:    125
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display: Material Total Translate Time: 0.06 s
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display: Material Translation Only: 0.03 s (50%)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display: Material Cache Hits: 23 (18%)
+[2025.03.24-10.26.24:111][143]LogShaderCompilers: Display: ================================================
+[2025.03.24-10.29.57:728][577]LogSlate: Window 'Paramètres du projet' being destroyed
+[2025.03.24-10.29.57:731][577]LogSlate: Window 'Paramètres du projet' being destroyed
+[2025.03.24-10.30.37:003][437]LogSlate: Window 'Préférences de l'éditeur' being destroyed
+[2025.03.24-10.30.37:007][437]LogSlate: Window 'Préférences de l'éditeur' being destroyed
+[2025.03.24-10.31.43:850][976]LogSlate: Window 'Préférences de l'éditeur' being destroyed
+[2025.03.24-10.31.43:853][976]LogSlate: Window 'Préférences de l'éditeur' being destroyed
+[2025.03.24-10.31.46:483][186]LogSlate: External Image Picker: DecompressImage failed
+[2025.03.24-10.32.21:776][354]LogSlate: Window 'Paramètres du projet' being destroyed
+[2025.03.24-10.32.21:780][354]LogSlate: Window 'Paramètres du projet' being destroyed
+[2025.03.24-10.32.59:114][163]LogSlate: Window 'Préférences de l'éditeur' being destroyed
+[2025.03.24-10.32.59:117][163]LogSlate: Window 'Préférences de l'éditeur' being destroyed
