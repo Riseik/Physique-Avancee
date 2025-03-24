@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Physique_Avancee.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\emaillard\Documents\GitHub\Physique-Avancee\Physique_Avancee\Intermediate\Build\Win64\x64\Physique_AvanceeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\emaillard\Documents\GitHub\Physique-Avancee\Physique_Avancee\Intermediate\Build\Win64\x64\UnrealEditor\Development\Physique_Avancee\Physique_Avancee.cpp.obj"
+"C:\Users\emaillard\Documents\GitHub\Physique-Avancee\Physique_Avancee\Intermediate\Build\Win64\x64\UnrealEditor\Development\Physique_Avancee\PerModuleInline.gen.cpp.obj"
+"C:\Users\emaillard\Documents\GitHub\Physique-Avancee\Physique_Avancee\Intermediate\Build\Win64\x64\UnrealEditor\Development\Physique_Avancee\Default.rc2.res"
+/OUT:"C:\Users\emaillard\Documents\GitHub\Physique-Avancee\Physique_Avancee\Intermediate\Build\Win64\x64\UnrealEditor\Development\Physique_Avancee\UnrealEditor-Physique_Avancee.lib"

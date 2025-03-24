@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\emaillard\\documents\\github\\physique-avancee\\physique_avancee\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\physique_avancee\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\emaillard\\documents\\github\\physique-avancee\\physique_avancee\\intermediate\\build\\win64\\x64\\physique_avanceeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\emaillard\\documents\\github\\physique-avancee\\physique_avancee\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\physique_avancee\\definitions.physique_avancee.h",
+            "c:\\program files\\epic games\\5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Physique_Avancee",
+			"Path": "..\\Source\\Physique_Avancee.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Physique_AvanceeEditor",
+			"Path": "..\\Source\\Physique_AvanceeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

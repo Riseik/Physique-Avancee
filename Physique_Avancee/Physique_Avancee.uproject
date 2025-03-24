@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{7F9E21E8-4292-84F3-D378-D98E1D5BE3F7}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Physique_Avancee",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
