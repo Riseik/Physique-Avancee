@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\emaillard\\Documents\\GitHub\\Physique-Avancee\\Physique_Avancee\\Source\\Physique_Avancee\\Physique_Avancee.Build.cs",
-		"C:\\Users\\emaillard\\Documents\\GitHub\\Physique-Avancee\\Physique_Avancee\\Source\\Physique_Avancee.Target.cs",
-		"C:\\Users\\emaillard\\Documents\\GitHub\\Physique-Avancee\\Physique_Avancee\\Source\\Physique_AvanceeEditor.Target.cs"
+		"C:\\Users\\ejoachimgabin\\Documents\\GitHub\\Physique-Avancee\\Physique_Avancee\\Source\\Physique_Avancee\\Physique_Avancee.Build.cs",
+		"C:\\Users\\ejoachimgabin\\Documents\\GitHub\\Physique-Avancee\\Physique_Avancee\\Source\\Physique_Avancee.Target.cs",
+		"C:\\Users\\ejoachimgabin\\Documents\\GitHub\\Physique-Avancee\\Physique_Avancee\\Source\\Physique_AvanceeEditor.Target.cs"
 	],
 	"EngineVersion": "5.5.3"
 }
